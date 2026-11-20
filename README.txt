@@ -20,8 +20,7 @@ Expected manifest identity:
 - scope: /san-fernando-district-directory/
 
 Important:
-- This identity matches the current GitHub Pages project path and is distinct
-  from AutoTarp's /autotarp/ identity.
+- This identity matches the current GitHub Pages project path.
 - If the repository is renamed or GitHub Pages moves to a different path, update
   these three manifest values and check service-worker registration in index.html.
 - The service worker uses an app-specific cache prefix and only intercepts URLs
@@ -29,3 +28,7 @@ Important:
   start with "sfd-one-directory-".
 - After deployment, uninstall the incorrectly identified SFD OneDirectory and
   reinstall it from its canonical URL if the browser still shows stale identity.
+
+
+Version 1.1 — TALA Update
+- Added TALA to National Level.

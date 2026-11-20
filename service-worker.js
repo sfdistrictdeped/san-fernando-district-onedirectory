@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sfd-one-directory-v1.0-autobook-path-fix';
+const CACHE_NAME = 'sfd-one-directory-v1.1-tala-cleanup';
 const CACHE_PREFIX = 'sfd-one-directory-';
 const APP_SCOPE = '/san-fernando-district-onedirectory/';
 const APP_SHELL = [
@@ -7,9 +7,7 @@ const APP_SHELL = [
   APP_SCOPE + 'district-favicon.png',
   APP_SCOPE + 'manifest.json',
   APP_SCOPE + 'icons/icon-192.png',
-  APP_SCOPE + 'icons/icon-512.png',
-  APP_SCOPE + 'autotarp-logo.png',
-  APP_SCOPE + 'autobook-logo.png',
+  APP_SCOPE + 'icons/icon-512.png',\n  APP_SCOPE + 'tala-logo.png',
   APP_SCOPE + 'sdo-masbate-logo.png',
   APP_SCOPE + 'region-v-logo.png',
   APP_SCOPE + 'sf-district-logo.png'
